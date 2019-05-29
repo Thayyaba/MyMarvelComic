@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wid_margin">8dp</dimen>
+    <dimen name="head_textsize">25sp</dimen>
+    <dimen name="text_txtsize">23sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="fivedp">5dp</dimen>
+    <dimen name="tendp">10dp</dimen>
+    <dimen name="twodp">2dp</dimen>
+    <dimen name="threedp">3dp</dimen>
+    <dimen name="fiftydp">50dp</dimen>
+    <dimen name="threeeightdp">38dp</dimen>
+    <dimen name="zerodp">0dp</dimen>
+    <dimen name="twentysp">20sp</dimen>
+    <dimen name="twofivedp">25dp</dimen>
+    <dimen name="eightdp">8dp</dimen>
+    <dimen name="onefivezerodp">150dp</dimen>
+    <dimen name="onezerozerodp">100dp</dimen>
+    <dimen name="oneeightsp">18sp</dimen>
+    <dimen name="twentydp">20dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Marvel Comic</string>
+    <string name="appwidget_text">Marvel</string>
+    <string name="add_widget">Add widget</string>
+    <string name="imgview">imgview</string>
+    <string name="open_marvel_movies">Open Marvel Movies</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="marvelimg">marvelimg</string>
+    <string name="name">Name:</string>
+    <string name="names">NAME</string>
+    <string name="last_modified_date">Last Modified Date</string>
+    <string name="modified_date">Modified Date</string>
+    <string name="comic_description">Comic Description</string>
+    <string name="description">Description</string>
+    <string name="add_to_my_favourite">Add to my favourite</string>
+    <string name="all_comics_names_scroll_to_left">All Comics Names(Scroll to left )</string>
+    <string name="all_stories_of_comics_scroll_to_left">All Stories Of Comics (Scroll to left)</string>
+    <string name="favimg">favimg</string>
+    <string name="marvel">Marvel</string>
+    <string name="comicimg">comicimg</string>
+    <string name="title">Title</string>
+    <string name="series">series</string>
+    <string name="story_name">story name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register_here">Register Here...</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="widgetimg">widgetimg</string>
+</resources>

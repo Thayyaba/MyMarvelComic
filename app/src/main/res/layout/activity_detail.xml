@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/tendp"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thumb"
+                android:layout_margin="@dimen/twodp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img"
+                android:contentDescription="@string/marvelimg"/>
+
+            <LinearLayout
+               style="@style/headstyle"
+                android:layout_margin="@dimen/threedp"
+                android:orientation="vertical">
+
+             <TextView
+                 style="@style/headstyle"
+                 android:text="@string/name"/>
+
+                <TextView
+                    style="@style/result_style"
+                    android:id="@+id/name_text"
+                    android:text="@string/names"/>
+            </LinearLayout>
+
+            <LinearLayout
+               style="@style/headstyle"
+                android:orientation="vertical">
+
+                <TextView
+                   style="@style/headstyle"
+                    android:text="@string/last_modified_date"/>
+
+                <TextView
+                    style="@style/result_style"
+                    android:id="@+id/modified_text"
+                    android:text="@string/modified_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/headstyle"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/headstyle"
+                    android:text="@string/comic_description"/>
+                <TextView
+                    style="@style/result_style"
+                    android:id="@+id/desc_text"
+                    android:text="@string/description"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                   style="@style/headstyle"
+                    android:text="@string/add_to_my_favourite"/>
+
+                <com.like.LikeButton
+                    android:layout_width="@dimen/fiftydp"
+                    android:layout_height="@dimen/threeeightdp"
+                    android:id="@+id/star_but"
+                    android:layout_margin="@dimen/fivedp"
+                    app:anim_scale_factor="2.5"
+                    app:circle_end_color="@color/colorAccent"
+                    app:circle_start_color="@color/colorPrimary"
+                    app:dots_primary_color="@color/colorAccent"
+                    app:dots_secondary_color="@color/colorPrimary"
+                    app:icon_size="@dimen/twofivedp"
+                    app:icon_type="Star"
+                    app:is_enabled="true"
+                    app:like_drawable="@drawable/heart_on"
+                    app:liked="false"
+                    app:unlike_drawable="@drawable/heart_off"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="171dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/headstyle"
+                    android:text="@string/all_comics_names_scroll_to_left"
+                    android:textStyle="italic"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Recycler_Comics"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+            <TextView
+                style="@style/headstyle"
+                android:text="@string/all_stories_of_comics_scroll_to_left"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycler_stories"></android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                style="@style/headstyle"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerr_urls"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

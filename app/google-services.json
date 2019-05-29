@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "188976126326",
+    "firebase_url": "https://mymarvelcomic-789fe.firebaseio.com",
+    "project_id": "mymarvelcomic-789fe",
+    "storage_bucket": "mymarvelcomic-789fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188976126326:android:45b2783d0f478de2",
+        "android_client_info": {
+          "package_name": "com.example.gowtham.mymarvelcomic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188976126326-fqfvc7lnv1lbbvab510868oel665d4bg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gowtham.mymarvelcomic",
+            "certificate_hash": "bab15ecdc3ef62ab3bca22b536dcd7a3ed5592eb"
+          }
+        },
+        {
+          "client_id": "188976126326-26grnovns4btb9rg0jj56onje8bno6j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gowtham.mymarvelcomic",
+            "certificate_hash": "b5fff0880c127dbfc15faf0d3a39a99db610321f"
+          }
+        },
+        {
+          "client_id": "188976126326-t7hemami752f9i4krfoko82r6ov3nn8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx8RmHxa_IDEEn20yKB-1ZmUb3FlHapYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188976126326-t7hemami752f9i4krfoko82r6ov3nn8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/eightdp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/detail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/displayPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/imgview"
+                android:scaleType="fitXY"
+                android:src="@drawable/google"
+              />
+        </LinearLayout>
+
+       <include layout="@layout/edit_texts"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twofivedp"
+            android:layout_marginRight="@dimen/twofivedp"
+            android:text="@string/sign_in"
+            android:onClick="signIn"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/tendp">
+        <TextView
+            android:id="@+id/forgott"
+            android:layout_width="@dimen/zerodp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/forgot_password"
+            android:onClick="forgot"
+            android:textColor="@color/thickred"
+            android:textSize="@dimen/twentysp"/>
+        <TextView
+            android:id="@+id/create_account"
+            android:layout_width="@dimen/zerodp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/register_here"
+            android:textStyle="italic"
+            android:textColor="@color/thickblue"
+            android:onClick="register"
+            android:textSize="@dimen/twentysp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

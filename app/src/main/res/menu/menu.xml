@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fav_movie"
+        android:title="Favourite"/>
+    <item
+        android:id="@+id/web"
+        android:title="Goto web"/>
+    <item
+        android:id="@+id/marvel"
+        android:title="Marvel"/>
+    <item
+        android:id="@+id/signout"
+        android:title="SignOut"
+        android:icon="@drawable/sign_out_btn"
+        app:showAsAction="always"/>
+
+
+</menu>
